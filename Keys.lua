@@ -1,28 +1,10 @@
 return {
-  {
-    key = "JC-TEST-0001",
-    bind = "",
-    days = 7,
-    active = true,
-    reseller = "main",
-    expirydate = "31-12-2025"
+  ["TESTKEY123"] = {
+    device = "",
+    expiry = "Lifetime"
   },
-
-  {
-    key = "JC-TEST-0002",
-    bind = "",
-    days = 30,
-    active = true,
-    reseller = "main",
-    expirydate = "31-12-2025"
-  },
-
-  {
-    key = "JC-TEST-1234",
-    bind = "",
-    days = 90,
-    active = true,
-    reseller = "main",
-    expirydate = "31-12-2026"
+  ["VIP-001"] = {
+    device = "1234567890abcdef",
+    expiry = "2025-12-30"
   }
 }
